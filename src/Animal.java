@@ -6,8 +6,9 @@ public class Animal {
 
     
     public Animal(String laji, String nimi, int ikä){
-        System.out.println(laji + nimi + ikä);
-        
+        this.laji = laji;
+        this.nimi = nimi;
+        this.ikä = ikä;
     }
 
 }
