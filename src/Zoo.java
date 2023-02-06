@@ -25,7 +25,7 @@ public class Zoo {
         for (Animal animal : this.lista) {
             for(int i = 0; i < times; i++) {
                  String na = animal.nimi;
-                 System.out.println(na +" juoksee kovaaa vauhtia!");
+                 System.out.println(na +" juoksee kovaa vauhtia!");
             }
         }
     }

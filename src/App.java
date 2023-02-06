@@ -39,7 +39,7 @@ public class App {
                     break;
                 
                 case 3:
-                    System.out.println("Kuinka monta kierrosta");
+                    System.out.println("Kuinka monta kierrosta?");
                     String kierros = scanner.nextLine();
                     int kierrosInt = Integer.parseInt(kierros);
                     tarha.runAnimals(kierrosInt);
