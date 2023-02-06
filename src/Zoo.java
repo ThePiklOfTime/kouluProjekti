@@ -14,8 +14,11 @@ public class Zoo {
         this.lista.add(eläin);
     }
     public void listAnimal(){
+        
+        System.out.println(this.name + " pitää sisällään nämä eläimet:");
+        
         for (Animal eläin : this.lista) {
-          System.out.println(eläin.laji + ":" + eläin.nimi + "." + eläin.ikä + " vuotta");  
+          System.out.println(eläin.laji + ": " + eläin.nimi + "," + eläin.ikä + " vuotta");  
         }
     }
     public void runAnimals(int times){

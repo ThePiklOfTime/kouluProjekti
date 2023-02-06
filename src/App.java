@@ -26,9 +26,9 @@ public class App {
                 case 1:
                     System.out.println("Mikä laji?");
                     String laji = scanner.nextLine();
-                    System.out.println("Anna eläimen nimi");
+                    System.out.println("Anna eläimen nimi:");
                     String nimi = scanner.nextLine();
-                    System.out.println("Anna eläimen ikä");
+                    System.out.println("Anna eläimen ikä:");
                     String ikä = scanner.nextLine();
                     int ikäInt = Integer.parseInt(ikä);
                     Animal animal = new Animal(laji, nimi, ikäInt);
