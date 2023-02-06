@@ -15,10 +15,10 @@ public class Zoo {
     }
     public void listAnimal(){
         
-        System.out.println(this.name + " pitää sisällään nämä eläimet:");
+        System.out.println(this.name + " pitää sisällään seuraavat eläimet:");
         
         for (Animal eläin : this.lista) {
-          System.out.println(eläin.laji + ": " + eläin.nimi + "," + eläin.ikä + " vuotta");  
+          System.out.println(eläin.laji + ": " + eläin.nimi + ", " + eläin.ikä + " vuotta");  
         }
     }
     public void runAnimals(int times){
