@@ -15,7 +15,7 @@ public class Zoo {
     }
     public void listAnimal(){
         for (Animal eläin : this.lista) {
-          System.out.println(eläin.nimi);  
+          System.out.println(eläin.laji + ":" + eläin.nimi + "." + eläin.ikä + " vuotta");  
         }
     }
     public void runAnimals(int times){

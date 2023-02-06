@@ -22,7 +22,6 @@ public class App {
             catch (NumberFormatException e) {
                 break;
             }
-            System.out.println(i);
             switch (i) {
                 case 1:
                     System.out.println("Mikä laji?");
